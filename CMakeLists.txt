@@ -41,7 +41,7 @@ include/errorcodes.h
 include/parse_number.h
 )
 
-add_library(Template
+add_library(bson
     ${SOURCE}
     ${INCLUDE}
 )
